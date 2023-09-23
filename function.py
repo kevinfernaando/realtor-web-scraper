@@ -69,7 +69,7 @@ def scrape_data(params):
     url = generate_url(**params)
     print(url)
 
-    driver = uc.Chrome(use_subprocess=False, headless=False)
+    driver = uc.Chrome(use_subprocess=False, headless=True)
     driver.get(url)
     time.sleep(5)
     page_source = driver.page_source
