@@ -68,9 +68,7 @@ def scrape_data(params):
 
     url = generate_url(**params)
     print(url)
-
-    from fake_useragent import UserAgent
-
+    
     chrome_binary_path = "/Applications/Google Chrome.app/Contents/MacOS/Google Chrome"
 
     driver = uc.Chrome(
