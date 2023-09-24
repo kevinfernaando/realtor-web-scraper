@@ -6,6 +6,7 @@ import time
 import warnings
 import math
 import undetected_chromedriver as uc
+import os
 
 headers = {
     "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
@@ -69,8 +70,8 @@ def scrape_data(params):
     url = generate_url(**params)
     print(url)
     
-    chrome_binary_path = "/Applications/Google Chrome.app/Contents/MacOS/Google Chrome"
-
+    chrome_binary_path = os.getenv("CHROME_BINARY_LOCATION")
+    
     driver = uc.Chrome(
         use_subprocess=False, headless=False, binary_location=chrome_binary_path
     )
