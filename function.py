@@ -70,7 +70,8 @@ def scrape_data(params):
     url = generate_url(**params)
     print(url)
     
-    chrome_binary_path = os.getenv("CHROME_BINARY_LOCATION")
+    # chrome_binary_path = os.getenv("CHROME_BINARY_LOCATION")
+    chrome_binary_path = "/Applications/Google Chrome.app/Contents/MacOS/Google Chrome"
     
     driver = uc.Chrome(
         use_subprocess=False, headless=False, binary_location=chrome_binary_path
