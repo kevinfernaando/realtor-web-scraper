@@ -74,7 +74,7 @@ def scrape_data(params):
     chrome_binary_path = "/Applications/Google Chrome.app/Contents/MacOS/Google Chrome"
     
     driver = uc.Chrome(
-        use_subprocess=False, headless=False, binary_location=chrome_binary_path
+        use_subprocess=False, headless=True
     )
     driver.get(url)
     time.sleep(5)
