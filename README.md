@@ -52,13 +52,16 @@ This is going to be the first page that you see
 
 <img width="1002" alt="Screenshot 2023-09-27 at 11 38 46" src="https://github.com/kevinfernaando/realtor-web-scraper/assets/77948222/0fd8e9b0-46a4-414b-a57e-69f15e7b860e">
 
+
 You must input the location with [City, State] format like London, KY then you can fill the filter as needed
 
 <img width="1002" alt="Screenshot 2023-09-27 at 11 31 34" src="https://github.com/kevinfernaando/realtor-web-scraper/assets/77948222/2417cc2a-4e2e-4d3f-8bf5-3807fd2d1b6d">
 
+
 You just need to clik "Scrape Data" button and the app will scrape the data and return a dataframe, you also can download the scraped data into csv file by pressing "Download Data" button
 
 <img width="1002" alt="Screenshot 2023-09-27 at 11 50 08" src="https://github.com/kevinfernaando/realtor-web-scraper/assets/77948222/214cbbac-8e72-4d1f-85d1-332335eeaf4a">
+
 
 ## Authors
 
