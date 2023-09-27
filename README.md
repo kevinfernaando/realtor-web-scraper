@@ -1,6 +1,3 @@
-![realtor](https://github.com/kevinfernaando/realtor-web-scraper/assets/77948222/ef09f5d2-2de7-47a4-acb3-0924cef49474)
-
-
 # Realtor Web Scraper
 The Realtor Web Scraper is a powerful tool for extracting real estate data from Realtor.com. This Python-based web scraping project allows you to define custom parameters to filter and collect specific real estate listings and related information according to your preferences. Whether you're a real estate investor, researcher, or simply curious about the market, this scraper simplifies the process of obtaining valuable data for your analysis.
 
